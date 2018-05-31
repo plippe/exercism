@@ -29,4 +29,4 @@ docker run --rm -itv $EXERCISE:/opt/exercise plippe/exercism:$LANGUAGE
 ```
 
 ### Supported languages
-None at the moment. Come back soon :)
+- Rust: http://exercism.io/languages/rust
