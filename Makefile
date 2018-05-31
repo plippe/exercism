@@ -17,14 +17,11 @@ build-%:
 
 test:; $(call forall,test)
 test-%:
-	echo $*
 	docker run \
 		--rm \
 		--interactive \
-		--tty \
 		--volume $(PWD)/languages/$*/hello-world:/opt/exercism \
 		$(DOCKER_IMAGE):$*
-		.
 
 release:; $(call forall,release)
 release-%:
