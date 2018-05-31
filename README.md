@@ -30,3 +30,4 @@ docker run --rm -itv $EXERCISE:/opt/exercise plippe/exercism:$LANGUAGE
 
 ### Supported languages
 - Rust: http://exercism.io/languages/rust
+- Scala: http://exercism.io/languages/scala
