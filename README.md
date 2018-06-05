@@ -3,8 +3,8 @@
 [Exercism](http://exercism.io/) is a plateform to learn programming languages.
 It offers coding exercises for over 30 languages.
 
-The following Dockerfiles allow you test your challenges by only installing
-docker. This makes trying new languages easier.
+The following Dockerfiles allow you to test your challenges by only installing
+docker. This makes trying new languages easier. 
 
 ### Getting started
 ```bash
@@ -29,6 +29,7 @@ docker run --rm -itv $EXERCISE:/opt/exercise plippe/exercism:$LANGUAGE
 ```
 
 ### Supported languages
+The following languages are available on [Docker Hub](https://hub.docker.com/r/plippe/exercism/).
 - PureScript: http://exercism.io/languages/purescript
 - Rust: http://exercism.io/languages/rust
 - Scala: http://exercism.io/languages/scala
