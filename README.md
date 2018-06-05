@@ -29,5 +29,6 @@ docker run --rm -itv $EXERCISE:/opt/exercise plippe/exercism:$LANGUAGE
 ```
 
 ### Supported languages
+- PureScript: http://exercism.io/languages/purescript
 - Rust: http://exercism.io/languages/rust
 - Scala: http://exercism.io/languages/scala
