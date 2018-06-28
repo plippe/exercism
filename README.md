@@ -15,7 +15,7 @@ docker run \
     --rm \
     --interactive \
     --tty \
-    --volume $EXERCISE:/opt/exercise \
+    --volume $EXERCISE:/opt/exercism \
     plippe/exercism:$LANGUAGE
 ```
 
@@ -25,7 +25,7 @@ or
 LANGUAGE=???
 EXERCISE=~/exercism/$LANGUAGE/???
 
-docker run --rm -itv $EXERCISE:/opt/exercise plippe/exercism:$LANGUAGE
+docker run --rm -itv $EXERCISE:/opt/exercism plippe/exercism:$LANGUAGE
 ```
 
 ### Supported languages
